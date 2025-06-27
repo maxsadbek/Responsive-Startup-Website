@@ -1,7 +1,12 @@
+
 header{
     background-color: #74c77b;
-    height: 600px;
     padding-block: 3rem;
+    .header{
+    background-color: #74c77b;
+    height: 750px;
+
+    }
     .navbar{
         .logo{
             display: flex;
@@ -24,6 +29,9 @@ header{
                     font-size: 20px;
                 }
             }
+        }
+        i{
+            display: none;
         }
     }
     .hero{
@@ -54,5 +62,67 @@ header{
             border: none;
             font-size: 18px;
         }
+    }
+    @media screen and (max-width:600px) {
+        .container{
+        max-width: 1300px;
+        width: 90%;
+        margin: 0 auto;
+    }
+        .header{
+    background-color: #74c77b;
+    height: 750px;
+
+    }
+        .navbar{
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 35px;
+            color: white;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: none;
+        }
+        i{
+            display: block;
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+    .hero{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column-reverse;
+        h1{
+            font-size: 20px;
+            width: 70%;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+        h3{
+            letter-spacing: 2px;
+            color: #fff;
+            margin-bottom:1rem;
+            margin-top: 1rem;
+        }
+        p{
+            font-size: 14px;
+            width: 80%;
+            margin-top: 1rem;
+            color: #fff;
+        }
+        button{
+            padding: 14px 45px;
+            border-radius: 10px;
+            margin-top: 1rem;
+            border: none;
+            font-size: 18px;
+        }
+    }
     }
 }
