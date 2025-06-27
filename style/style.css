@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+header {
+  background-color: #74c77b;
+  height: 600px;
+  padding-block: 3rem;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 35px;
+  color: white;
+}
+header .navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+header .navbar ul li {
+  list-style: none;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+header .hero {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+header .hero h1 {
+  font-size: 40px;
+  width: 70%;
+  letter-spacing: 2px;
+  color: #fff;
+}
+header .hero h3 {
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+header .hero p {
+  font-size: 16px;
+  width: 80%;
+  margin-top: 1rem;
+}
+header .hero button {
+  padding: 14px 45px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: none;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inder", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
