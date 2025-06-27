@@ -1,0 +1,46 @@
+@media screen and (max-width:600px) {
+.plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .plans_card{
+        box-shadow: 0px 0px 10px #555;
+        width: 90%;
+        padding: 1rem 2rem;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        p{
+            font-size: 18px;
+        }
+
+    }
+    .plans_text{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+        button{
+            padding: 14px 30px #555;
+        }
+
+        h1{
+            font-size: 35px;
+            margin-left: 3.5rem;
+        }
+        h5{
+            color: #555;
+        }
+        i{
+            color: #74c77b;
+        }
+    }
+            h3{
+            color: #555;
+            font-size: 14px;
+        }
+}
+}

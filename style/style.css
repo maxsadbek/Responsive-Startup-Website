@@ -81,6 +81,7 @@ header .navbar i {
   padding: 2rem 3rem;
   text-align: center;
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
 .plans .plans_card p {
   font-size: 18px;
@@ -92,6 +93,9 @@ header .navbar i {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
+}
+.plans .plans_text button {
+  padding: 14px 30px #555;
 }
 .plans .plans_text h1 {
   font-size: 27px;
@@ -608,6 +612,50 @@ footer h3 {
     margin-top: 3rem;
     object-fit: cover;
     width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .plans .plans_card {
+    box-shadow: 0px 0px 10px #555;
+    width: 90%;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .plans .plans_card p {
+    font-size: 18px;
+  }
+  .plans .plans_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .plans .plans_text button {
+    padding: 14px 30px #555;
+  }
+  .plans .plans_text h1 {
+    font-size: 35px;
+    margin-left: 3.5rem;
+  }
+  .plans .plans_text h5 {
+    color: #555;
+  }
+  .plans .plans_text i {
+    color: #74c77b;
+  }
+  .plans h3 {
+    color: #555;
+    font-size: 14px;
   }
 }
 

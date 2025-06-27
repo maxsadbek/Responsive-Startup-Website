@@ -44,9 +44,11 @@ header{
         padding: 2rem 3rem;
         text-align: center;
         border-radius: 10px;
+        margin-bottom: 2rem;
         p{
             font-size: 18px;
         }
+
     }
     .plans_text{
         display: flex;
@@ -55,7 +57,9 @@ header{
         text-align: center;
             margin-bottom: 2rem;
             margin-top: 1rem;
-
+        button{
+            padding: 14px 30px #555;
+        }
 
         h1{
             font-size: 27px;
