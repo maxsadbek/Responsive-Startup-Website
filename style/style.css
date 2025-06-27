@@ -70,6 +70,79 @@ header .navbar ul li a {
 header .navbar i {
   display: none;
 }
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+}
+.plans .plans_card {
+  box-shadow: 0px 0px 10px #555;
+  width: 310px;
+  padding: 2rem 3rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.plans .plans_card p {
+  font-size: 18px;
+}
+.plans .plans_text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.plans .plans_text h1 {
+  font-size: 27px;
+  margin-left: 2.5rem;
+}
+.plans .plans_text h5 {
+  color: #555;
+}
+.plans .plans_text i {
+  color: #74c77b;
+}
+.plans h3 {
+  color: #555;
+  font-size: 14px;
+}
+
+header {
+  background-color: #74c77b;
+  padding-block: 3rem;
+}
+header .header {
+  background-color: #74c77b;
+  height: 750px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 35px;
+  color: white;
+}
+header .navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+header .navbar ul li {
+  list-style: none;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+header .navbar i {
+  display: none;
+}
 header .hero {
   margin-top: 4rem;
   display: flex;

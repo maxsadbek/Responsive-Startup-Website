@@ -1,0 +1,75 @@
+
+header{
+    background-color: #74c77b;
+    padding-block: 3rem;
+    .header{
+    background-color: #74c77b;
+    height: 750px;
+
+    }
+    .navbar{
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 35px;
+            color: white;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 2rem;
+            li{
+                    list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+        i{
+            display: none;
+        }
+    }
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    .plans_card{
+        box-shadow: 0px 0px 10px #555;
+        width: 310px;
+        padding: 2rem 3rem;
+        text-align: center;
+        border-radius: 10px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .plans_text{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+
+
+        h1{
+            font-size: 27px;
+            margin-left: 2.5rem;
+        }
+        h5{
+            color: #555;
+        }
+        i{
+            color: #74c77b;
+        }
+    }
+            h3{
+            color: #555;
+            font-size: 14px;
+        }
+}
