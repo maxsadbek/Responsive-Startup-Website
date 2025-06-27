@@ -1,13 +1,15 @@
-
-header{
-    background-color: #74c77b;
-    padding-block: 3rem;
-    .header{
+    @media screen and (max-width:600px) {
+        .container{
+        max-width: 1300px;
+        width: 90%;
+        margin: 0 auto;
+    }
+        .header{
     background-color: #74c77b;
     height: 750px;
 
     }
-    .navbar{
+        .navbar{
         .logo{
             display: flex;
             align-items: center;
@@ -19,27 +21,20 @@ header{
         justify-content: space-between;
         align-items: center;
         ul{
-            display: flex;
-            gap: 2rem;
-            li{
-                    list-style: none;
-                a{
-                    text-decoration: none;
-                    color: #fff;
-                    font-size: 20px;
-                }
-            }
+            display: none;
         }
         i{
-            display: none;
+            display: block;
+            color: #fff;
+            font-size: 30px;
         }
     }
     .hero{
         margin-top: 4rem;
         display: flex;
-        align-items: center;
+        flex-direction: column-reverse;
         h1{
-            font-size: 40px;
+            font-size: 20px;
             width: 70%;
             letter-spacing: 2px;
             color: #fff;
@@ -48,9 +43,10 @@ header{
             letter-spacing: 2px;
             color: #fff;
             margin-bottom:1rem;
+            margin-top: 1rem;
         }
         p{
-            font-size: 16px;
+            font-size: 14px;
             width: 80%;
             margin-top: 1rem;
             color: #fff;
@@ -63,5 +59,4 @@ header{
             font-size: 18px;
         }
     }
-
-}
+    }
