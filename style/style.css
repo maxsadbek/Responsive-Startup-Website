@@ -48,6 +48,7 @@ header .hero p {
   font-size: 16px;
   width: 80%;
   margin-top: 1rem;
+  color: #fff;
 }
 header .hero button {
   padding: 14px 45px;
@@ -68,6 +69,93 @@ header .hero button {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+}
+
+.Partnes {
+  text-align: center;
+  margin-top: 3rem;
+}
+.Partnes p {
+  color: #74c77b;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.Partnes h2 {
+  font-size: 35px;
+}
+.Partnes h4 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.Partnes .icons {
+  display: flex;
+  justify-content: space-around;
+}
+.Partnes button {
+  font-size: 18px;
+  background-color: #000;
+  margin-top: 4rem;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.img_parent {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.img_parent h2 {
+  font-size: 40px;
+  width: 80%;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.img_parent p {
+  font-size: 20px;
+  width: 95%;
+  font-weight: 400;
+  color: #555;
+}
+.img_parent button {
+  padding: 14px 30px;
+  color: #fff;
+  background-color: #000;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.img_parent2 {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.img_parent2 h2 {
+  font-size: 40px;
+  width: 80%;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.img_parent2 p {
+  font-size: 20px;
+  width: 95%;
+  font-weight: 400;
+  color: #555;
+}
+.img_parent2 button {
+  padding: 14px 30px;
+  color: #fff;
+  background-color: #000;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
