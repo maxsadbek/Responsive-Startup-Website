@@ -194,4 +194,20 @@ header .hero button {
   font-size: 18px;
 }
 
+footer {
+  background-color: #74c77b;
+  padding: 3rem 4rem;
+  color: #fff;
+}
+footer .footer_box {
+  display: flex;
+  justify-content: space-between;
+}
+footer .icon_footer i {
+  margin-left: 1rem;
+}
+footer h3 {
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=style.css.map */

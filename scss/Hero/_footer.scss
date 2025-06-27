@@ -1,0 +1,16 @@
+footer{
+    background-color: #74c77b;
+    padding: 3rem 4rem;
+        color: #fff;
+
+    .footer_box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon_footer i{
+        margin-left: 1rem;
+    }
+    h3{
+        font-weight: 400;
+    }
+}
