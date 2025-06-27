@@ -91,6 +91,10 @@ header .hero button {
   margin-bottom: 2rem;
   font-weight: 300;
 }
+.Partnes span {
+  margin-top: -5rem;
+  font-size: 20px;
+}
 .Partnes .icons {
   display: flex;
   justify-content: space-around;
@@ -154,6 +158,38 @@ header .hero button {
   color: #fff;
   background-color: #000;
   margin-top: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.team .team_box {
+  width: 280px;
+  padding: 2rem;
+  line-height: 2;
+  box-shadow: 0px 0px 10px #555;
+  border-radius: 8px;
+}
+.team .team_box img {
+  margin-left: 1.4rem;
+}
+.team .team_box h2 {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 3.5rem;
+}
+.button button {
+  padding: 14px 30px;
+  color: #fff;
+  background-color: #000;
   border-radius: 10px;
   font-size: 18px;
 }
