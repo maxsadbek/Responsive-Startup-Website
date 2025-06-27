@@ -1,0 +1,23 @@
+{
+  "name": "responsive-startup-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsadbek/Responsive-Startup-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsadbek/Responsive-Startup-Website/issues"
+  },
+  "homepage": "https://github.com/maxsadbek/Responsive-Startup-Website#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
