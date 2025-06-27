@@ -505,4 +505,37 @@ footer h3 {
   object-fit: cover;
 }
 
+@media screen and (max-width: 600px) {
+  .porfolio_text {
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .porfolio_text h3 {
+    color: #74c77b;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .porfolio_text h1 {
+    font-size: 40px;
+  }
+  .porfolio_text p {
+    font-size: 22px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .porfolio {
+    display: flex;
+    gap: 2rem;
+  }
+  .porfolio img {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    object-fit: cover;
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
