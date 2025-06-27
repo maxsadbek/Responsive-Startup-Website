@@ -1,0 +1,37 @@
+
+header{
+    background-color: #74c77b;
+    padding-block: 3rem;
+    .header{
+    background-color: #74c77b;
+    height: 750px;
+
+    }
+    .navbar{
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 35px;
+            color: white;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 2rem;
+            li{
+                    list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+        i{
+            display: none;
+        }
+    }
+}

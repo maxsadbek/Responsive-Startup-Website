@@ -34,6 +34,42 @@ header .navbar ul li a {
 header .navbar i {
   display: none;
 }
+
+header {
+  background-color: #74c77b;
+  padding-block: 3rem;
+}
+header .header {
+  background-color: #74c77b;
+  height: 750px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 35px;
+  color: white;
+}
+header .navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+header .navbar ul li {
+  list-style: none;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+header .navbar i {
+  display: none;
+}
 header .hero {
   margin-top: 4rem;
   display: flex;
